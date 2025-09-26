@@ -1,58 +1,63 @@
-📊 Curso de Regressão Linear - Alura
-Este repositório contém os arquivos e projetos desenvolvidos durante o curso "Regressão Linear: Testando Relações e Prevendo Resultados" da Alura.
+# *Curso de Regressão Linear - Alura*
 
-📖 Sobre o Curso
-O curso forneceu uma base sólida em modelos de regressão linear, abordando tanto a fundamentação teórica quanto a aplicação prática usando Python. Aprende-se não apenas a criar modelos preditivos, mas principalmente a validá-los, interpretá-los e compreender suas limitações.
+Este repositório contém os materiais e projetos do curso de Regressão Linear realizado na Alura.
 
-🎯 Objetivos de Aprendizado
-Fundamentos Conceituais
-Compreender o que é regressão linear e quando aplicá-la
+## *Sobre o Curso*
 
-Entender a diferença entre regressão linear simples e múltipla
+* Curso: Regressão Linear: Testando Relações e Prevendo Resultados
+* Plataforma: Alura
+* Duração: [número] horas
+* Status: Concluído em [data]
 
-Interpretar coeficientes e suas significâncias práticas
+## *O que Aprendi*
 
-Divisão de Dados
-Separar dados em conjuntos de treino e teste
+### *Fundamentos da Regressão Linear*
+* Compreensão dos conceitos básicos de regressão linear simples e múltipla
+* Interpretação de coeficientes e suas aplicações práticas
+* Diferença entre correlação e causalidade
 
-Compreender a importância da validação para evitar overfitting
+### *Separação de Dados*
+* Divisão estratégica entre conjuntos de treino e teste
+* Importância da validação para evitar overfitting
+* Avaliação da generalização do modelo
 
-Avaliar a generalização do modelo com dados não vistos
+### *Análise com StatsModels*
+* Utilização da biblioteca statsmodels para análise estatística
+* Interpretação de sumários completos (R², p-valores, intervalos de confiança)
+* Diagnóstico de qualidade dos modelos
 
-Análise Estatística com StatsModels
-Utilizar a biblioteca statsmodels para análise detalhada
+### *Tratamento de Variáveis*
+* Seleção e definição de variáveis dependentes e independentes
+* Identificação e tratamento de multicolinearidade através do VIF
+* Criação e interpretação de variáveis dummy
 
-Interpretar sumários estatísticos completos (R², p-valores, F-statistic)
+### *Validação de Pressupostos*
+* Verificação de linearidade das relações
+* Análise de homocedasticidade dos resíduos
+* Teste de normalidade dos resíduos
+* Diagnóstico de independência dos erros
 
-Realizar diagnósticos de qualidade do modelo
+## *Tecnologias Utilizadas*
 
-Tratamento de Variáveis
-Selecionar e preparar variáveis independentes e dependentes
+* Python 3.x
+* pandas para manipulação de dados
+* statsmodels para modelagem estatística
+* scikit-learn para validação
+* matplotlib e seaborn para visualizações
+* Jupyter Notebooks
+## *Principais Tópicos Abordados*
 
-Identificar e tratar multicolinearidade usando VIF (Variance Inflation Factor)
+### *Modelagem Preditiva*
+* Construção de modelos de regressão linear
+* Interpretação prática dos resultados
+* Aplicação em casos reais de negócio
 
-Trabalhar com variáveis categóricas através de dummy variables
+### *Validação Estatística*
+* Análise de significância dos coeficientes
+* Cálculo e interpretação do R-quadrado
+* Testes de hipóteses para validação
 
-Validação de Pressupostos
-Verificar os principais pressupostos da regressão linear:
-
-Linearidade da relação
-
-Homocedasticidade (variância constante dos resíduos)
-
-Normalidade dos resíduos
-
-Independência dos erros
-
-🛠️ Tecnologias e Bibliotecas Utilizadas
-Python 3
-
-pandas: Manipulação de dados
-
-statsmodels: Modelagem estatística
-
-scikit-learn: Divisão treino/teste e métricas
-
-matplotlib/seaborn: Visualizações
-
-Jupyter Notebook: Ambiente de desenvolvimento
+### *Diagnóstico de Problemas*
+* Identificação de multicolinearidade
+* Análise de resíduos e outliers
+* Tratamento de violações de pressupostos
